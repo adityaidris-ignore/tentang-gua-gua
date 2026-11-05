@@ -185,7 +185,7 @@
       </div>
 
       <audio id="music" loop>
-        <source src="One Direction - 18 (Lyrics).mp3" type="audio/mpeg">
+        <source src="18.mp3" type="audio/mpeg">
         Browser kamu tidak mendukung audio.
       </audio>
     </div>
