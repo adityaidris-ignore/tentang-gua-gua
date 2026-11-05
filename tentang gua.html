@@ -1,0 +1,205 @@
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>My Anime Profile</title>
+
+<style>
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background: #101010;
+  color: white;
+  min-height: 100vh;
+}
+
+header {
+  padding: 20px;
+  text-align: center;
+  border-bottom: 1px solid #333;
+}
+
+header h1 {
+  color: #aaa;
+  letter-spacing: 3px;
+}
+
+header p {
+  color: #777;
+  margin-top: 8px;
+}
+
+.container {
+  max-width: 900px;
+  margin: auto;
+  padding: 25px;
+}
+
+.profile {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+  background: #1b1b1b;
+  padding: 25px;
+  border-radius: 15px;
+  border: 1px solid #333;
+}
+
+.profile img {
+  width: 150px;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 12px;
+}
+
+.profile h2 {
+  font-size: 26px;
+  margin-bottom: 12px;
+}
+
+.profile p {
+  color: #aaa;
+  line-height: 1.8;
+}
+
+section {
+  margin-top: 25px;
+  padding: 25px;
+  background: #1b1b1b;
+  border-radius: 15px;
+  border: 1px solid #333;
+}
+
+h3 {
+  color: #bbb;
+  margin-bottom: 15px;
+}
+
+.info {
+  line-height: 2;
+  color: #aaa;
+}
+
+.music {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.music img {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+audio {
+  width: 100%;
+  margin-top: 12px;
+}
+
+footer {
+  text-align: center;
+  color: #555;
+  padding: 30px;
+}
+
+@media (max-width: 550px) {
+  .profile {
+    flex-direction: column;
+    text-align: center;
+  }
+}
+</style>
+</head>
+
+<body>
+
+<header>
+  <h1>MY WEBSITE</h1>
+  <p>Welcome to my personal world</p>
+</header>
+
+<div class="container">
+
+  <div class="profile">
+    <img
+      src="https://placehold.co/300x360/222222/ffffff?text=My+Photo"
+      alt="Foto profil">
+
+    <div>
+      <h2>Aditya Idris</h2>
+      <p>
+        Halo! Selamat datang di website pribadiku.<br>
+        Aku seorang gamer dan pecinta anime.<br>
+        Jangan lupa nikmati musiknya!
+      </p>
+    </div>
+  </div>
+
+  <section>
+    <h3>About Me</h3>
+    <div class="info">
+      Nama: Aditya Idris<br>
+      Hobi: Gaming dan menonton anime<br>
+      Genre favorit: Action, Fantasy, Romance<br>
+      Motto: Enjoy your own world.
+    </div>
+  </section>
+
+  <section>
+    <h3>My Waifu</h3>
+
+    <div class="music">
+      <img
+        src="https://placehold.co/300x400/222222/ffffff?text=Waifu"
+        alt="Foto waifu">
+
+      <div>
+        <h2>Sistine Fibel</h2>
+        <p style="color:#888; margin-top:8px;">
+          The Akashic Records of Bastard Magic Instructor
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h3>My Music</h3>
+
+    <div class="music">
+      <img
+        src="https://placehold.co/300x300/222222/ffffff?text=Music"
+        alt="Album musik">
+
+      <div>
+        <h3 style="margin:0;">My Favorite Song</h3>
+        <p style="color:#888; margin-top:8px;">
+          Play your favorite music
+        </p>
+      </div>
+    </div>
+
+    <audio controls preload="none">
+      <source
+        src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3"
+        type="audio/mpeg">
+      Browser kamu tidak mendukung pemutar musik.
+    </audio>
+  </section>
+
+</div>
+
+<footer>
+  © 2026 My Personal Website
+</footer>
+
+</body>
+</html>
