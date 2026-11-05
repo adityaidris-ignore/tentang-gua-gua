@@ -144,7 +144,7 @@
     <div class="profile">
 
       <img
-        src="https://placehold.co/400x500/222222/ffffff?text=Your+Waifu"
+        src="Waifu gua.jpg"
         alt="Foto waifu">
 
       <div class="info">
@@ -185,7 +185,7 @@
       </div>
 
       <audio id="music" loop>
-        <source src="music.mp3" type="audio/mpeg">
+        <source src="One Direction - 18 (Lyrics).mp3" type="audio/mpeg">
         Browser kamu tidak mendukung audio.
       </audio>
     </div>
